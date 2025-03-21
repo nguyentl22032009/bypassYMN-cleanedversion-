@@ -880,7 +880,7 @@
     _0x24c644.appendChild(_0x5dc837);
     const _0x3e99c4 = document.createElement("div");
     _0x3e99c4.className = "author-text";
-    _0x3e99c4.textContent = "Code By Hieudz • Ducknovis • XGreen";
+    _0x3e99c4.textContent = "Cleanned by Sigmanguyen";
     _0x45f106.appendChild(_0x24c644);
     _0x45f106.appendChild(_0x3e99c4);
     document.body.appendChild(_0x45f106);
