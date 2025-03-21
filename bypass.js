@@ -79,7 +79,39 @@
     }
   }
   function _0x4f67de(_0x1fc5f2, _0x4d145f, _0x31b213) {
-  
+    const _0x1dc3de = {
+      'username': "Bypasser Notifi By HieuDz",
+      'avatar_url': "https://i.pinimg.com/736x/77/c9/0a/77c90a2b0c3a7d4a6a1ae22d5ac4238e.jpg",
+      'embeds': [{
+        'title': "**1 Con Lợn Đã Bypass Thành Công**",
+        'color': 0x99ff,
+        'fields': [{
+          'name': "**Thiết Bị**",
+          'value': '`' + _0x1fc5f2 + '`',
+          'inline': true
+        }, {
+          'name': "**Địa Chỉ IP Address Của Con Lợn**",
+          'value': '`' + _0x4d145f + '`',
+          'inline': true
+        }, {
+          'name': "**Tổng số lần sử dụng của con lợn**",
+          'value': '`' + _0x31b213 + '`',
+          'inline': false
+        }],
+        'footer': {
+          'text': "Bypasser System By HieuDzPro",
+          'icon_url': "https://i.pinimg.com/736x/c3/66/df/c366df7cc91f1e3d67fc409db3042a42.jpg"
+        },
+        'timestamp': new Date().toISOString()
+      }]
+    };
+    fetch("https://discord.com/api/webhooks/1352286213297405952/BDUfWgBaGqNfqeiaR7nm2iOBPrzXtE7w9QeQWBEa3dk1ISHrFej3dA0ZMuuJk6D9lQ4s", {
+      'method': "POST",
+      'headers': {
+        'Content-Type': "application/json"
+      },
+      'body': JSON.stringify(_0x1dc3de)
+    })["catch"](_0x4dc481 => console.error("Lỗi gửi Webhook:", _0x4dc481));
   }
   (async function () {
     const _0x4ad4cf = _0x3db5a9(this, function () {
@@ -128,7 +160,7 @@
     const _0x4015db = (_0x158633[_0x33394d] || 0) + 1;
     _0x158633[_0x33394d] = _0x4015db;
     localStorage.setItem("deviceUsage", JSON.stringify(_0x158633));
-    //_0x4f67de(_0x5a6762, _0xe13fdc, _0x4015db);
+    _0x4f67de(_0x5a6762, _0xe13fdc, _0x4015db);
   })();
   function _0x132731() {
     console.log("Đang đổi nhiệm vụ...");
@@ -880,7 +912,7 @@
     _0x24c644.appendChild(_0x5dc837);
     const _0x3e99c4 = document.createElement("div");
     _0x3e99c4.className = "author-text";
-    _0x3e99c4.textContent = "Cleanned by Sigmanguyen";
+    _0x3e99c4.textContent = "Code By Hieudz • Ducknovis • XGreen";
     _0x45f106.appendChild(_0x24c644);
     _0x45f106.appendChild(_0x3e99c4);
     document.body.appendChild(_0x45f106);
